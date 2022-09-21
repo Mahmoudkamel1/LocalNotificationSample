@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="b55-IV-mZl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="HG5-t0-coB">
+            <objects>
+                <viewController id="b55-IV-mZl" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3AG-R8-qhH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Notification Body" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qQb-OQ-v8z">
+                                <rect key="frame" x="10" y="338" width="394" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="6GL-rz-Biy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMX-RR-9Zy">
+                                <rect key="frame" x="140.5" y="438" width="133" height="30"/>
+                                <state key="normal" title="publish Notification">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="SendNotification:" destination="b55-IV-mZl" eventType="touchUpInside" id="Nom-Ii-9Hg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IqU-Bh-j7z">
+                                <rect key="frame" x="10" y="138" width="394" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="iwm-Eg-eGN"/>
+                                </constraints>
+                                <string key="text">Dear Komal, this is the simple example for using a local notification and Deep linking with schema not universal links and the schema is "mahmoud://", if you have any idea for a better sample dont's hesitate to ask me , Thanks</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cFX-2K-Jba"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cFX-2K-Jba" firstAttribute="trailing" secondItem="qQb-OQ-v8z" secondAttribute="trailing" constant="10" id="3cc-3s-TL0"/>
+                            <constraint firstItem="IqU-Bh-j7z" firstAttribute="leading" secondItem="cFX-2K-Jba" secondAttribute="leading" constant="10" id="6Vc-Wh-D7C"/>
+                            <constraint firstItem="DMX-RR-9Zy" firstAttribute="top" secondItem="qQb-OQ-v8z" secondAttribute="bottom" constant="50" id="NGK-iJ-TU4"/>
+                            <constraint firstItem="qQb-OQ-v8z" firstAttribute="leading" secondItem="cFX-2K-Jba" secondAttribute="leading" constant="10" id="Shp-R0-nr7"/>
+                            <constraint firstItem="qQb-OQ-v8z" firstAttribute="top" secondItem="IqU-Bh-j7z" secondAttribute="bottom" constant="50" id="bD4-Yk-T82"/>
+                            <constraint firstItem="DMX-RR-9Zy" firstAttribute="centerY" secondItem="cFX-2K-Jba" secondAttribute="centerY" id="fuc-Hg-wRZ"/>
+                            <constraint firstItem="DMX-RR-9Zy" firstAttribute="centerX" secondItem="cFX-2K-Jba" secondAttribute="centerX" id="mpf-Cs-eVm"/>
+                            <constraint firstItem="cFX-2K-Jba" firstAttribute="trailing" secondItem="IqU-Bh-j7z" secondAttribute="trailing" constant="10" id="q5r-H8-V8K"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="notificationContent" destination="qQb-OQ-v8z" id="VVt-fT-M05"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lZJ-V6-dbQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

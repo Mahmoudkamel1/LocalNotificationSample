@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{769DCB9E-7766-48C9-90CB-BFA8126DC78C}|Default">
+  <MonoDevelop.Ide.ItemProperties.LocalNotificationSample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.04247D89-E65E-4A6F-9024-ACA4C64B67B8" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LocalNotificationSample/Application/AppDelegate/SceneDelegate.cs">
+    <Files>
+      <File FileName="LocalNotificationSample/ViewController.cs" Line="24" Column="51" />
+      <File FileName="LocalNotificationSample/ViewModel/MainViewModel.cs" Line="8" Column="31" />
+      <File FileName="LocalNotificationSample/Application/AppDelegate/SceneDelegate.cs" Line="69" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LocalNotificationSample" expanded="True">
+            <Node name="LocalNotificationSample" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="AppDelegate" expanded="True">
+                  <Node name="SceneDelegate.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Presentation" expanded="True">
+                <Node name="Main" expanded="True">
+                  <Node name="View" expanded="True" />
+                  <Node name="ViewModel" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/macbook/Projects/LocalNotificationSample/LocalNotificationSample/Application/AppDelegate/AppDelegate.cs" relfile="LocalNotificationSample/Application/AppDelegate/AppDelegate.cs" line="44" column="1" />
+      <Breakpoint file="/Users/macbook/Projects/LocalNotificationSample/LocalNotificationSample/Application/AppDelegate/SceneDelegate.cs" relfile="LocalNotificationSample/Application/AppDelegate/SceneDelegate.cs" line="64" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
